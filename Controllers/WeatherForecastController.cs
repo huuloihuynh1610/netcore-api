@@ -35,10 +35,5 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
-        [HttpGet("test")]
-        public IActionResult Test()
-        {
-            return Ok("success");
-        }
     }
 }
