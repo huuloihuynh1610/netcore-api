@@ -22,7 +22,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1(76c7270a-0d31-4261-9422-e3fdef5764b9)'
+    azureSubscription: 'Azure subscription 1(****)'
     appType: 'webApp'
     WebAppName: 'webapp-demo-netcore'
     deployToSlotOrASE: true
